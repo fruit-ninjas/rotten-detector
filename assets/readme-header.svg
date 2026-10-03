@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="172" viewBox="0 0 1200 172" role="img" aria-labelledby="title desc">
+  <title id="title">Магнит — компьютерное зрение при приёмке товара</title>
+  <desc id="desc">Шапка проекта с корпоративным красным акцентом. Анализ фотографий для департамента качества.</desc>
+  <rect width="1200" height="172" fill="#FFFFFF"/>
+  <rect width="8" height="172" fill="#E30613"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="40" y="43" fill="#60656C" font-size="18" font-weight="600" letter-spacing="1.2">МАГНИТ · ДЕПАРТАМЕНТ КАЧЕСТВА</text>
+    <text x="40" y="97" fill="#1E1F22" font-size="39" font-weight="700">Компьютерное зрение при приёмке</text>
+    <text x="40" y="137" fill="#60656C" font-size="23">Распознавание продукции и анализ видимых дефектов</text>
+  </g>
+</svg>
