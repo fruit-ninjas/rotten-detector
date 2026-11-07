@@ -5,10 +5,13 @@ description = "Computer vision model for automated detection and classification 
 readme = "README.md"
 authors = [{ name = "robotomize", email = "robotomize@gmail.com" }]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "imagehash>=4.3.2",
+]
 
 [project.scripts]
 rotten-detector = "rotten_detector:main"
+rotten-dedup = "rotten_detector.cli.dedup:main"
 
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]
@@ -25,3 +28,7 @@ strict = true
 python_version = "3.12"
 mypy_path = "src"
 packages = ["rotten_detector"]
+
+[[tool.mypy.overrides]]
+module = ["imagehash", "PIL"]
+ignore_missing_imports = true
