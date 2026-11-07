@@ -1,0 +1,27 @@
+[project]
+name = "rotten-detector"
+version = "0.1.0"
+description = "Computer vision model for automated detection and classification of fresh vs rotten fruits and vegetables"
+readme = "README.md"
+authors = [{ name = "robotomize", email = "robotomize@gmail.com" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+rotten-detector = "rotten_detector:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest", "ruff", "mypy", "pre-commit"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+mypy_path = "src"
+packages = ["rotten_detector"]
