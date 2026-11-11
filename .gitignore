@@ -4,9 +4,13 @@ __pycache__/
 *$py.class
 .python-version
 
+.DS_Store
+
 # C extensions
 *.so
-
+notebooks/nikita_ivanov_eda/data/blueberry*
+notebooks/nikita_ivanov_eda/data/peach*
+notebooks/nikita_ivanov_eda/data/paper*
 # Distribution / packaging
 .Python
 build/
