@@ -1,0 +1,10 @@
+fruit,label,images,md5_images,phash_images
+blueberry,accepted,349,0,2
+blueberry,declined,1020,20,20
+blueberry,extra,105,0,0
+paper,accepted,550,13,13
+paper,declined,1012,6,6
+paper,extra,115,0,0
+peach,accepted,502,0,2
+peach,declined,1019,2,2
+peach,extra,102,0,0
